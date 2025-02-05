@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="">
+
+
+    <nav class="bg-white shadow fixed w-full z-50">
+
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div>
+                    <a href="index.html" class="text-xl font-bold text-teal-600">daisyUI</a>
+                </div>
+
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex md:items-center space-x-6">
+                    <a href=blog.html#" class="text-gray-800 text-sm font-semibold hover:text-teal-600">Blog</a>
+                    <a href="#" class="text-gray-800 text-sm font-semibold hover:text-teal-600">Marketplace</a>
+                    <a href="#" class="text-gray-800 text-sm font-semibold hover:text-teal-600">Partners</a>
+                    <a href="#" class="text-gray-800 text-sm font-semibold hover:text-teal-600">Pricing</a>
+                </div>
+
+                <!-- Ações (Login e Signup) -->
+                <div class="hidden md:flex md:items-center space-x-4">
+                    <a href="login.html" class="text-gray-800 text-sm font-semibold hover:text-teal-600">Sign
+                        in</a>
+                    <a href="cadastro.html"
+                        class="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-teal-600 hover:border-teal-600">Sign
+                        up</a>
+                </div>
+
+                <!-- Botão Mobile -->
+                <!-- Botão Mobile -->
+                <label for="menu-toggle"
+                    class=" m-1 swap swap-rotate text-gray-500 absolute right-5 top-3 md:hidden z-50">
+
+                    <input type="checkbox" id="menu-toggle" />
+
+                    <!-- Ícone de menu -->
+                    <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 512 512">
+                        <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                    </svg>
+
+                    <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 512 512">
+                        <polygon points="400 145.49 366.51 112 256 222.51 145.49 
+                            112 112 145.49 222.51 256 112 366.51 145.49 
+                            400 256 289.49 366.51 400 400 366.51 289.49 
+                            256 400 145.49" />
+                    </svg>
+
+                </label>
+
+                <!-- Menu Mobile -->
+                <div id="mobile-menu" 
+                    class="
+                        fixed 
+                        top-0 
+                        left-0 w-full 
+                        lg:mx-10
+                        bg-white 
+                        py-5 px-5 
+                        transition-all duration-600
+                        -translate-y-full opacity-0 
+                        pointer-events-none
+                        md:hidden"
+                    >
+                    <!-- Logo -->
+                    <div class="mb-3">
+                        <a href="index.html" class="text-xl font-bold text-teal-600">daisyUI</a>
+                    </div>
+
+                    <div class="flex flex-col space-y-3  mb-3">
+                        <a href="blog.html" class="text-gray-800 text-md font-semibold  hover:text-teal-600">Blog</a>
+                        <a href="#" class="text-gray-800 text-md font-semibold hover:text-teal-600">Marketplace</a>
+                        <a href="#" class="text-gray-800 text-md font-semibold hover:text-teal-600">Partners</a>
+                        <a href="#" class="text-gray-800 text-md font-semibold hover:text-teal-600">Pricing</a>
+                    </div>
+                    <div class="border-t-2"></div>
+                    <div class="gap-5 flex w-20 flex-col mt-5">
+
+                        <a href="login.html" class="text-gray-800 text-sm font-semibold hover:text-teal-600">
+                            Sign in
+                        </a>
+
+                        <a href="cadastro.html" class=" text-teal-500 text-sm font-semibold ">
+                            Signup
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+
+
+
+    <div class="flex flex-col bg-gray-100 justify-center">
+
+        <section class=" border-b-2 mb-16">
+
+            <div class="mx-auto sm:mt-44 mt-36 flex flex-col xl:px-68 lg:px-56 sm:px-24 px-5 items-center mb-20">
+
+                <a href="category-post.html"
+                    class="inline-flex items-center text-xl mb-3 font-medium  mt-5 text-teal-600 hover:text-teal-800"
+                    title="read more"> Technology »
+                </a>
+
+
+                <div
+                    class="title-font lg:text-7xl text-center sm:text-5xl text-3xl mb-4 font-medium text-gray-900 tracking-tight">
+                    <a href="post.html">
+                        <span class="bg-gradient-to-r from-green-200 to-green-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat 
+                        transition-[background-size] duration-500 hover:bg-[length:100%_20px] group-hover:bg-[length:100%_10px]
+                        dark:from-teal-400 dark:to-teal-300">
+                            Architectural Engineering Wonders of the modern era for your Inspiration <span
+                                class="text-teal-500">. . .</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="mt-2 font-normal line-clamp-3 text-md text-gray-400 text-center mb-4">
+                    <a href="#">Reinvention
+                        often comes in spurts, after a long period of silence. Just as modern architecture
+                        recently enjoyed a comeback, brand architecture, a field with well-established
+                        principles for decades
+                        often comes in spurts, after a long period of silence. Just as modern architecture
+                        recently enjoyed a comeback, brand architecture, a field with well-established
+                        principles for decades
+                        often comes in spurts, after a long period of silence. Just as modern architecture
+                        recently enjoyed a comeback, brand architecture, a field with well-established
+                        principles for decades
+                    </a>
+                </div>
+
+
+
+                <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
+                    <a href="#">
+                        <div class="flex items-center gap-3">
+                            <div class="relative h-8 w-8 flex-shrink-0">
+                                <img alt="Mario Sanchez" loading="lazy" decoding="async" data-nimg="fill"
+                                    class="rounded-full object-cover " src="../public/people-01.png">
+                            </div><span class="truncate text-sm">Mario Sanchez</span>
+                        </div>
+                    </a>
+                    <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+                    <time class="truncate text-sm" datetime="2022-10-21T15:48:00.000Z">October 21, 2022</time>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="py-10 md:py-16 border-b-2">
+
+            <div class="container  mx-auto px-4">
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <div class="mb-10 lg:mb-0">
+                        <h1
+                            class="title-font lg:text-7xl sm:text-5xl text-3xl mb-4 font-medium text-gray-900 tracking-tight">
+                            Categories
+                        </h1>
+
+                        <p class="font-normal line-clamp-3 text-md text-gray-400">
+                            I have brought here my biggest and favorite works
+                            <br>
+                            as a professional.
+                        </p>
+                    </div>
+                    
+
+                    <div class="space-y-24">
+
+
+                        
+                        <a href="category-post.html" class="flex space-x-6">
+                            <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl">
+                                01
+                            </h1>
+                            <span class="w-28 h-0.5 bg-teal-500 mt-5"></span>
+
+                            <div>
+                                <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl mb-5">
+                                    Demo API Generator
+                                </h1>
+
+                                <p class="line-clamp-3 text-md text-gray-400">
+                                    A dummy data free and documented API
+                                    generator to facilitate
+                                    <br>
+                                    the process of testing the front-end portion
+                                    of projects.
+                                </p>
+                            </div>
+                        </a>
+
+
+
+
+                        <a href="category-post.html" class="flex space-x-6">
+                            <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl">
+                                01
+                            </h1>
+                            <span class="w-28 h-0.5 bg-teal-500 mt-5"></span>
+
+                            <div>
+                                <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl mb-5">
+                                    Demo API Generator
+                                </h1>
+
+                                <p class="line-clamp-3 text-md text-gray-400">
+                                    A dummy data free and documented API
+                                    generator to facilitate
+                                    <br>
+                                    the process of testing the front-end portion
+                                    of projects.
+                                </p>
+                            </div>
+                        </a>
+
+
+
+
+                        <a href="category-post.html" class="flex space-x-6">
+                            <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl">
+                                01
+                            </h1>
+                            <span class="w-28 h-0.5 bg-teal-500 mt-5"></span>
+
+                            <div>
+                                <h1 class="font-medium text-gray-900 sm:text-3xl text-2xl md:text-4xl mb-5">
+                                    Demo API Generator
+                                </h1>
+
+                                <p class="line-clamp-3 text-md text-gray-400">
+                                    A dummy data free and documented API
+                                    generator to facilitate
+                                    <br>
+                                    the process of testing the front-end portion
+                                    of projects.
+                                </p>
+                            </div>
+                        </a>
+
+                      
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section>
+            <div class=" flex px-5 mb-16 w-full mt-16">
+                <div class="grid  grid-cols-1 2xl:px-64 xl:grid-cols-3 gap-8 lg:grid-cols-2 ">
+
+                    
+                    <div class="group cursor-pointer border p-5">
+
+                        <div class="overflow-hidden bg-gray-100 transition-all"><a
+                                class="relative block aspect-video  hover:scale-105 " href="post.html">
+                                <img src="../public/Python1.png" alt="Thumbnail" fetchpriority="high" decoding="async"
+                                    data-nimg="fill" class="object-cover transition-all"
+                                    style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                                    sizes="(max-width: 768px) 30vw, 33vw"></a>
+                        </div>
+                        <div class="">
+                            <div>
+                                <div class="flex gap-3">
+
+                                    <a href="category-post.html"
+                                        class="inline-flex items-center mb-3 font-medium  mt-5 text-teal-600 hover:text-teal-800"
+                                        title="read more"> Technology »
+                                    </a>
+                                </div>
+
+                                <div class="font-medium text-gray-900 sm:text-2xl md:text-2xl">
+                                    <a href="post.html">
+                                        <span class="bg-gradient-to-r from-green-200 to-green-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat 
+                                            transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]
+                                             dark:from-teal-400 dark:to-teal-300">Architectural
+                                            Engineering Wonders of the modern era for your Inspiration</span>
+                                    </a>
+                                </div>
+                                <div class="mt-2 line-clamp-3 text-sm text-gray-400 ">
+                                    <a href="post.html">Reinvention
+                                        often comes in spurts, after a long period of silence. Just as modern
+                                        architecture
+                                        recently enjoyed a comeback, brand architecture, a field with well-established
+                                        principles for decades
+                                    </a>
+                                </div>
+
+                                <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
+                                    <div href="">
+                                        <div class="flex items-center gap-3">
+                                            <div class="relative h-8 w-8 flex-shrink-0">
+                                                <img alt="Mario Sanchez" loading="lazy" decoding="async"
+                                                    data-nimg="fill" class="rounded-full object-cover "
+                                                    src="../public/people-01.png">
+                                            </div><span class="truncate text-sm">Mario Sanchez</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+                                    <time class="truncate text-sm" datetime="2022-10-21T15:48:00.000Z">October 21,
+                                        2022</time>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    
+                    <div class="group cursor-pointer border p-5">
+
+                        <div class="overflow-hidden bg-gray-100 transition-all"><a
+                                class="relative block aspect-video  hover:scale-105 " href="post.html">
+                                <img src="../public/Python1.png" alt="Thumbnail" fetchpriority="high" decoding="async"
+                                    data-nimg="fill" class="object-cover transition-all"
+                                    style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                                    sizes="(max-width: 768px) 30vw, 33vw"></a>
+                        </div>
+                        <div class="">
+                            <div>
+                                <div class="flex gap-3">
+
+                                    <a href="category-post.html"
+                                        class="inline-flex items-center mb-3 font-medium  mt-5 text-teal-600 hover:text-teal-800"
+                                        title="read more"> Technology »
+                                    </a>
+                                </div>
+
+                                <div class="font-medium text-gray-900 sm:text-2xl md:text-2xl">
+                                    <a href="post.html">
+                                        <span class="bg-gradient-to-r from-green-200 to-green-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat 
+                                            transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]
+                                             dark:from-teal-400 dark:to-teal-300">Architectural
+                                            Engineering Wonders of the modern era for your Inspiration</span>
+                                    </a>
+                                </div>
+                                <div class="mt-2 line-clamp-3 text-sm text-gray-400 ">
+                                    <a href="post.html">Reinvention
+                                        often comes in spurts, after a long period of silence. Just as modern
+                                        architecture
+                                        recently enjoyed a comeback, brand architecture, a field with well-established
+                                        principles for decades
+                                    </a>
+                                </div>
+
+                                <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
+                                    <div href="">
+                                        <div class="flex items-center gap-3">
+                                            <div class="relative h-8 w-8 flex-shrink-0">
+                                                <img alt="Mario Sanchez" loading="lazy" decoding="async"
+                                                    data-nimg="fill" class="rounded-full object-cover "
+                                                    src="../public/people-01.png">
+                                            </div><span class="truncate text-sm">Mario Sanchez</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+                                    <time class="truncate text-sm" datetime="2022-10-21T15:48:00.000Z">October 21,
+                                        2022</time>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+ 
+                    <div class="group cursor-pointer border p-5">
+
+                        <div class="overflow-hidden bg-gray-100 transition-all"><a
+                                class="relative block aspect-video  hover:scale-105 " href="post.html">
+                                <img src="../public/Python1.png" alt="Thumbnail" fetchpriority="high" decoding="async"
+                                    data-nimg="fill" class="object-cover transition-all"
+                                    style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                                    sizes="(max-width: 768px) 30vw, 33vw"></a>
+                        </div>
+                        <div class="">
+                            <div>
+                                <div class="flex gap-3">
+
+                                    <a href="category-post.html"
+                                        class="inline-flex items-center mb-3 font-medium  mt-5 text-teal-600 hover:text-teal-800"
+                                        title="read more"> Technology »
+                                    </a>
+                                </div>
+
+                                <div class="font-medium text-gray-900 sm:text-2xl md:text-2xl">
+                                    <a href="post.html">
+                                        <span class="bg-gradient-to-r from-green-200 to-green-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat 
+                                            transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]
+                                             dark:from-teal-400 dark:to-teal-300">Architectural
+                                            Engineering Wonders of the modern era for your Inspiration</span>
+                                    </a>
+                                </div>
+                                <div class="mt-2 line-clamp-3 text-sm text-gray-400 ">
+                                    <a href="post.html">Reinvention
+                                        often comes in spurts, after a long period of silence. Just as modern
+                                        architecture
+                                        recently enjoyed a comeback, brand architecture, a field with well-established
+                                        principles for decades
+                                    </a>
+                                </div>
+
+                                <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
+                                    <div href="">
+                                        <div class="flex items-center gap-3">
+                                            <div class="relative h-8 w-8 flex-shrink-0">
+                                                <img alt="Mario Sanchez" loading="lazy" decoding="async"
+                                                    data-nimg="fill" class="rounded-full object-cover "
+                                                    src="../public/people-01.png">
+                                            </div><span class="truncate text-sm">Mario Sanchez</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+                                    <time class="truncate text-sm" datetime="2022-10-21T15:48:00.000Z">October 21,
+                                        2022</time>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--
+  Heads up! 👋
+
+  Plugins:
+    - @tailwindcss/forms
+-->
+
+        <footer class="border-t-2">
+            <div class="mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-2">
+                    <div
+                        class="border-b border-gray-100 py-8 lg:order-last lg:border-s lg:border-b-0 lg:py-16 lg:ps-16">
+
+                        <div class="mt-8 space-y-4 lg:mt-0">
+                            <span class="hidden h-1 w-10 rounded-sm bg-teal-500 lg:block"></span>
+
+                            <div>
+                                <h2 class="title-font sm:text-2xl text-xl font-medium text-gray-900 tracking-tight">
+                                    Request a Demo</h2>
+
+                                <p class="mt-4 max-w-lg line-clamp-3 text-sm text-gray-400">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, harum deserunt
+                                    nesciunt praesentium, repellendus eum perspiciatis ratione pariatur a aperiam eius
+                                    numquam doloribus asperiores sunt.
+                                </p>
+                            </div>
+
+                            <form class="mt-6 w-full">
+                                <label for="UserEmail" class="sr-only"> Email </label>
+
+                                <div
+                                    class="rounded-md border border-gray-100  focus-within:ring-3 sm:flex sm:items-center sm:gap-4">
+
+                                    <input type="email" name="email" id="email" class="
+                                            w-full mt-1
+                                            bg-gray-200
+                                            block 
+                                            px-4 py-3 
+                                            text-gray-600 
+                                            text-sm rounded 
+                                            focus:outline-none
+                                            placeholder-gray-400" placeholder="Mande uma menssagem!">
+                                    <button
+                                        class="mt-1 w-full rounded-sm bg-teal-500 px-6 py-3 text-sm font-bold tracking-wide text-white uppercase transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0">
+                                        Sign Up
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="py-8 lg:py-16 lg:pe-16">
+                        <div class="hidden text-teal-600 lg:block">
+                            <h1 class="text-xl font-bold text-teal-600">DaisyUi</h1>
+                        </div>
+
+                        <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
+                            <div>
+                                <p class="title-font sm:text-2xl text-xl font-medium text-gray-900 tracking-tight">
+                                    Services</p>
+
+                                <ul class="mt-6 space-y-4 text-sm">
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> 1on1
+                                            Coaching
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75">
+                                            Company Review
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75">
+                                            Accounts Review
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> HR
+                                            Consulting
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> SEO
+                                            Optimisation
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <p class="title-font sm:text-2xl text-xl font-medium text-gray-900 tracking-tight">
+                                    Company</p>
+
+                                <ul class="mt-6 space-y-4 text-sm">
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75">
+                                            About </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> Meet
+                                            the Team
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75">
+                                            Accounts Review
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <p class="title-font sm:text-2xl text-xl font-medium text-gray-900 tracking-tight">
+                                    Helpful Links</p>
+
+                                <ul class="mt-6 space-y-4 text-sm">
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75">
+                                            Contact </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> FAQs
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                            class="line-clamp-3 text-sm text-gray-400 transition hover:opacity-75"> Live
+                                            Chat </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 border-t border-gray-100 pt-8">
+                            <ul class="flex flex-wrap gap-4 text-xs">
+                                <li>
+                                    <a href="#" class="text-gray-500 transition hover:opacity-75"> Terms & Conditions
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
+                                </li>
+                            </ul>
+
+                            <p class="mt-8 text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            ScrollReveal().reveal('.title-font', {
+                origin: 'bottom',
+                distance: '50px',
+                duration: 1000,
+                delay: 200,
+                easing: 'ease-in-out',
+                reset: true
+            });
+        
+            ScrollReveal().reveal('.line-clamp-3', {
+                origin: 'left',
+                distance: '30px',
+                duration: 800,
+                delay: 300,
+                easing: 'ease-in-out',
+                reset: true
+            });
+        
+            ScrollReveal().reveal('.space-y-24 > a', {
+                origin: 'top',
+                distance: '50px',
+                duration: 1200,
+                delay: 400,
+                easing: 'ease-in-out',
+                reset: true
+            });
+            ScrollReveal().reveal('.group', {
+                origin: 'left',
+                distance :'20px',
+                duration: 1000,
+                delay: 300,
+                easing: 'ease-in-out',
+                reset: true
+            })
+            ScrollReveal().reveal('.inline-flex', {
+                origin: 'left',
+                distance :'20px',
+                duration: 1000,
+                delay: 300,
+                easing: 'ease-in-out',
+                reset: true
+            })
+        });
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('change', function () {
+            if (menuToggle.checked) {
+                mobileMenu.classList.remove('-translate-y-full', 'opacity-0', 'pointer-events-none');
+            } else {
+                mobileMenu.classList.add('-translate-y-full', 'opacity-0', 'pointer-events-none');
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+
+</html>
